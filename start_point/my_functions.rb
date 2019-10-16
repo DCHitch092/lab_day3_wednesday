@@ -20,6 +20,5 @@ def is_item_in_array(array,item)
 end
 
 def get_first_key(hash)
-  key = hash.keys.first  
-  return key
+  return hash.keys.first
 end
