@@ -12,7 +12,7 @@ end
 
 def is_item_in_array(array,item)
   for item_in_array in array
-    if (item == item_in_array)
+    if item == item_in_array
       return true
     end
   end
@@ -20,5 +20,5 @@ def is_item_in_array(array,item)
 end
 
 def get_first_key(hash)
-  return hash.keys.first
+  return hash.keys().first()
 end
